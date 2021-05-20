@@ -63,10 +63,11 @@ window.onload = function () {
     )
     .fromTo(
       ".cloud",
-      { autoAlpha: 0 },
+      { autoAlpha: 0, top: "30%" },
       {
         autoAlpha: 1,
-        duration: 1,
+        duration: 0.5,
+        top: "20%",
       }
     )
     .fromTo(
