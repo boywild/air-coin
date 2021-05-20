@@ -521,7 +521,7 @@
 }
 .home_titles {
   z-index: 2;
-  font-family: 'Conv_ArchivoNarrow-Regular', Circular Pro Medium, sans-serif;
+  font-family: 'Conv_ArchivoNarrow-Bold', Circular Pro Medium, sans-serif;
   position: relative;
   height: inherit;
   display: -webkit-box;
@@ -549,7 +549,7 @@
   color: #2c71f6;
 }
 .home_titles .title {
-  font-size: 4.86111vw;
+  font-size: 100px;
   line-height: 1.2;
 }
 .is-mobile .home_titles .title {
