@@ -107,7 +107,7 @@
 }
 .header nav a {
   font-size: 1.4rem;
-  padding: 0.1em 0.55em;
+  padding: 0.1em 0.75em;
   color: inherit;
   opacity: 1;
 }
@@ -186,7 +186,6 @@
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
-  margin-left: 8.33333%;
 }
 .home_titles strong {
   font-weight: inherit;
@@ -195,4 +194,83 @@
 .home_titles .title {
   font-size: 100px;
   line-height: 1.2;
+}
+.main-title {
+  font-size: 70px;
+  position: absolute;
+  top: 30%;
+  width: 100%;
+}
+.main-title .left-title {
+  position: absolute;
+  right: calc(50% + 140px);
+  top: 0;
+}
+.main-title .right-title {
+  position: absolute;
+  left: calc(50% + 140px);
+  top: 0;
+  padding-right: 160px;
+}
+.smbol {
+  position: absolute;
+  right: -45px;
+  top: 0;
+}
+.main-title .right-title .theme-text {
+  font-size: 100px;
+  position: absolute;
+  right: 0;
+  bottom: -5px;
+  line-height: 1;
+}
+.theme-text div,
+.theme-text {
+  background: #ff586c; /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    #ff586c 0%,
+    #ff9502 33%,
+    #ffcb66 66%,
+    #9bbe47 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    #ff586c 0%,
+    #ff9502 33%,
+    #ffcb66 66%,
+    #9bbe47 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ff586c 0%,
+    #ff9502 33%,
+    #ffcb66 66%,
+    #9bbe47 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff586c', endColorstr='#9bbe47',GradientType=1 ); /* IE6-9 */
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.baseline {
+  font-family: "Conv_ArchivoNarrow-Italic", Circular Pro Medium, sans-serif;
+  font-size: 22px;
+  line-height: 36px;
+  text-align: right;
+  position: absolute;
+  left: calc(50% + 140px);
+  top: 45%;
+}
+.page-footer {
+  position: absolute;
+  left: 100px;
+  right: 100px;
+  bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.4);
+}
+.page-footer .org span {
+  color: rgba(255, 255, 255, 1);
 }
