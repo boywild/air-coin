@@ -201,25 +201,25 @@ img {
 }
 .main-title {
   font-size: 70px;
-  position: absolute;
-  top: 30%;
+  /* position: absolute; */
+  /* top: 30%; */
   width: 100%;
 }
 .main-title .left-title {
   position: absolute;
   right: calc(50% + 140px);
-  top: 0;
+  top: 30%;
 }
 .main-title .right-title {
   position: absolute;
   left: calc(50% + 140px);
-  top: 0;
+  top: 30%;
   padding-right: 160px;
 }
 .smbol {
   position: absolute;
   right: -45px;
-  top: 0;
+  top: 30%;
 }
 .main-title .right-title .theme-text {
   font-size: 100px;

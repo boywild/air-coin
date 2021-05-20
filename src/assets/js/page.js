@@ -41,7 +41,51 @@ window.onload = function () {
       0.3
     )
     .to(videoBg, 0.2, { autoAlpha: 1 }, 0.3)
-    .to(".header", { autoAlpha: 1 }, "+=2");
+    .to(".header", { autoAlpha: 1 }, "+=2")
+
+    .fromTo(
+      ".left-title",
+      { duration: 1, autoAlpha: 0, ease: "bounce.out", top: 0 },
+      { duration: 1, autoAlpha: 1, ease: "bounce.out", top: "30%" }
+    )
+    .fromTo(
+      ".right-title",
+      { duration: 1, autoAlpha: 0, ease: "bounce.out", top: 0 },
+      { duration: 1, autoAlpha: 1, ease: "bounce.out", top: "30%" }
+    )
+    .fromTo(
+      ".coin",
+      { autoAlpha: 0 },
+      {
+        autoAlpha: 1,
+        duration: 1,
+      }
+    )
+    .fromTo(
+      ".cloud",
+      { autoAlpha: 0 },
+      {
+        autoAlpha: 1,
+        duration: 1,
+      }
+    )
+    .fromTo(
+      ".bird",
+      { autoAlpha: 0 },
+      {
+        autoAlpha: 1,
+        duration: 1,
+      }
+    )
+    .to(".cloud", {
+      transformOrigin: "bottom center",
+      y: -15,
+      rotation: 1,
+      duration: 2,
+      ease: "sine.inOut",
+      yoyo: true,
+      repeat: -1,
+    });
 
   // 标题动画ƒ
   titleWord1.words.forEach(function (t, i) {
