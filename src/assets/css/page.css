@@ -261,6 +261,26 @@
   left: calc(50% + 140px);
   top: 45%;
 }
+.social-area {
+  position: fixed;
+  left: 40px;
+  bottom: 20%;
+  z-index: 100;
+}
+.social-area .social-item {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 10px 0;
+  cursor: pointer;
+  opacity: 0.2;
+  transition: all 0.3s ease-in-out;
+}
+.social-area .social-item:hover {
+  opacity: 1;
+  transform: translateX(-10px);
+}
 .page-footer {
   position: absolute;
   left: 100px;
