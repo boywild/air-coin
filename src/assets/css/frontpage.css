@@ -249,7 +249,7 @@
   margin-top: 2vw;
 }
 .is-mobile .footer_cta {
-  font-family: Circular Pro Book, sans-serif;
+  font-family: 'Conv_ArchivoNarrow-Regular', Circular Pro Book, sans-serif;
   letter-spacing: 0;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -432,7 +432,7 @@
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  font-family: Circular Pro Medium, sans-serif;
+  font-family: 'Conv_ArchivoNarrow-Regular', Circular Pro Medium, sans-serif;
   line-height: 1;
   padding: 13vw 0 1.5vw;
   text-align: center;
@@ -472,7 +472,7 @@
 }
 .page_content h2 {
   font-size: 1.38889vw;
-  font-family: Circular Pro Medium, sans-serif;
+  font-family: 'Conv_ArchivoNarrow-Regular', Circular Pro Medium, sans-serif;
   margin-top: 4vw;
 }
 .is-mobile .page_content h2 {
@@ -521,7 +521,7 @@
 }
 .home_titles {
   z-index: 2;
-  font-family: Circular Pro Medium, sans-serif;
+  font-family: 'Conv_ArchivoNarrow-Regular', Circular Pro Medium, sans-serif;
   position: relative;
   height: inherit;
   display: -webkit-box;
@@ -723,7 +723,7 @@
   margin-left: 25%;
 }
 .home_create_facts li .title {
-  font-family: Circular Pro Medium, sans-serif;
+  font-family: 'Conv_ArchivoNarrow-Regular', Circular Pro Medium, sans-serif;
   line-height: 1.2;
   font-size: 1.38889vw;
 }
