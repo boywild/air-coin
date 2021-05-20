@@ -15,6 +15,10 @@
   visibility: hidden !important;
   opacity: 0;
 }
+img {
+  max-width: 100%;
+  display: block;
+}
 .scrollable {
   z-index: 1;
   width: 100%;
@@ -293,4 +297,28 @@
 }
 .page-footer .org span {
   color: rgba(255, 255, 255, 1);
+}
+.coin {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  right: calc(50% + 500px);
+  top: 26%;
+  z-index: 10;
+}
+.cloud {
+  width: 127px;
+  height: 85px;
+  position: absolute;
+  right: calc(50% + 30px);
+  top: 20%;
+  z-index: 10;
+}
+.bird {
+  width: 97px;
+  height: 37px;
+  position: absolute;
+  left: calc(50% + 227px);
+  top: 25%;
+  z-index: 10;
 }
