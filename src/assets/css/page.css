@@ -322,3 +322,56 @@ img {
   top: 25%;
   z-index: 10;
 }
+
+@media only screen and (min-width: 310px) and (max-width: 400px) {
+  .social-area {
+    left: 5px;
+    bottom: 10%;
+    opacity: 1;
+  }
+  .social-area .social-item {
+    opacity: 1;
+    padding: 2px 0;
+  }
+  .cloud,
+  .header .logo {
+    display: none;
+  }
+  .main-title {
+    top: 30%;
+    display: flex;
+    justify-content: center;
+  }
+  .main-title .left-title,
+  .main-title .right-title {
+    position: relative;
+    left: auto;
+    right: auto;
+    font-size: 24px;
+    padding-right: 0;
+  }
+  .main-title .right-title .theme-text {
+    font-size: 16px;
+    position: initial;
+  }
+  .main-title .right-title .smbol {
+    position: relative;
+    right: auto;
+    top: auto;
+  }
+  .baseline {
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    line-height: normal;
+    top: 55%;
+  }
+  .page-footer {
+    width: 100%;
+    left: 0;
+    right: 0;
+    display: block;
+    text-align: center;
+  }
+}
