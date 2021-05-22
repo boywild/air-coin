@@ -209,12 +209,14 @@ img {
   position: absolute;
   right: calc(50% + 140px);
   top: 30%;
+  opacity: 1;
 }
 .main-title .right-title {
   position: absolute;
   left: calc(50% + 140px);
   top: 30%;
   padding-right: 160px;
+  opacity: 1;
 }
 .smbol {
   position: absolute;
@@ -305,6 +307,7 @@ img {
   right: calc(50% + 500px);
   top: 26%;
   z-index: 10;
+  opacity: 0;
 }
 .cloud {
   width: 127px;
@@ -313,6 +316,7 @@ img {
   right: calc(50% + 30px);
   top: 20%;
   z-index: 10;
+  opacity: 0;
 }
 .bird {
   width: 97px;
@@ -321,6 +325,7 @@ img {
   left: calc(50% + 227px);
   top: 25%;
   z-index: 10;
+  opacity: 0;
 }
 
 @media only screen and (min-width: 310px) and (max-width: 400px) {
