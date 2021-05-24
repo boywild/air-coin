@@ -174,7 +174,7 @@ img {
 }
 .home_titles {
   z-index: 2;
-  font-family: "Conv_ArchivoNarrow-Bold", Circular Pro Medium, sans-serif;
+  font-family: "Helvetica", Circular Pro Medium, sans-serif;
   position: relative;
   height: inherit;
   display: -webkit-box;
@@ -259,7 +259,7 @@ img {
   color: transparent;
 }
 .baseline {
-  font-family: "Conv_ArchivoNarrow-Italic", Circular Pro Medium, sans-serif;
+  font-family: "Helvetica", Circular Pro Medium, sans-serif;
   font-size: 22px;
   line-height: 36px;
   text-align: right;
