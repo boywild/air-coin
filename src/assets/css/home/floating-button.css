@@ -75,6 +75,7 @@
 .mfb-component__button--child img {
   margin-top: 18px;
   width: 24px;
+  display: inline-block;
 }
 
 /**

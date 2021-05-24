@@ -14,10 +14,13 @@
   <link rel="icon" type="image/png" href="./assets/images/favicon/favicon-64x64.png" sizes="64x64" />
   <link rel="apple-touch-icon" href="./assets/images/favicon/favicon-180x180.png" />
   <link rel="shortcut icon" href="./assets/images/favicon/favicon-32x32.png" />
-  <link rel="stylesheet" id="stylesheet-css" href="./assets/css/index/font-awesome.min.css" type="text/css" media="all" />
+  <!-- <link rel="stylesheet" id="stylesheet-css" href="./assets/css/index/font-awesome.min.css" type="text/css" media="all" /> -->
   <link rel="stylesheet" id="stylesheet-css" href="./assets/css/index/reset.css" type="text/css" media="all" />
   <link rel="stylesheet" id="stylesheet-css" href="./assets/css/index/common.css" type="text/css" media="all" />
   <link rel="stylesheet" id="stylesheet-css" href="./assets/css/index/page.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="./assets/css/home/ionicons.min.css" />
+  <link rel="stylesheet" href="./assets/css/home/css.css" />
+  <link rel="stylesheet" href="./assets/css/home/floating-button.css" />
 
 </head>
 
@@ -25,24 +28,46 @@
   <div class="loader">
     <span>Loading...</span>
   </div>
-  <header class="header">
-    <a class="logo" name="Home" href=""> <span>Home</span> <img src="./assets/images/logo.png" alt="Plink logo"
-        width="57" height="23" />
-      <div class="qr-ball"></div>
-    </a>
-    <nav>
-      <div class="header_menu">
-        <a name="Twitter" href="https://twitter.com/Aircoinreal" target="_blank">Twitter</a>
-        <a name="Telegram" href="https://t.me/aircoinreal" target="_blank">Telegram</a>
-        <a name="Exchange" href="https://exchange.pancakeswap.finance/#/swap" target="_blank">Exchange</a>
-        <a name="Github" href="https://github.com/Aircoin-official" target="_blank">Github</a>
-        <!-- <a name="FOUR" href="" target="_blank">Four</a>
-        <a name="Contact" href="" target="_blank">Contact</a> -->
-        <div class="qr-ball"></div>
-      </div>
-      <!-- <a id="login" name="Login with Mollie" class="button" href="" target="_blank" rel="nofollow">Login with Mollie</a> -->
-    </nav>
-  </header>
+  <div class="header header--in light" id="main-head">
+    <a href="/" class="header__logo"
+      ><img src="./assets/images/home/f79eead872b6a4fdd484bff2a23e1d05.svg"
+    /></a>
+    <div class="header__coins">
+      <a href="https://twitter.com/Aircoinreal" class="samecoin">
+        <div class="coin-icon samecoin--bg">
+          <img
+            src="./assets/images/icon-twitter.svg"
+          />
+        </div>
+        <p>Twitter</p>
+      </a>
+      <a href="https://t.me/aircoinreal" class="sameusd">
+        <div class="coin-icon sameusd--bg">
+          <img
+            src="./assets/images/icon-telegram.svg"
+          />
+        </div>
+        <p>Telegram</p>
+      </a>
+      <a href="https://github.com/Aircoin-official" class="sameeuro">
+        <div class="coin-icon sameeuro--bg">
+          <img
+            src="./assets/images/icon-github.svg"
+          />
+        </div>
+        <p>Github</p>
+      </a>
+    </div>
+    <div class="header__menu">
+      <a href="./index.html">Home</a>
+      <a href="./about.html#about">About</a>
+      <a href="./about.html#roadmap">Roadmap</a>
+      <a href="./about.html#contacts">Contact</a>
+    </div>
+    <a href="javascript:openSubscribe('14', 'coin')" class="header__button"
+      >Launch app</a
+    >
+  </div>
   <div id="container" role="main">
     <div id="home" class="home">
       <div class="scrollable">
@@ -69,14 +94,17 @@
                 <span>“I can’t breathe<br /></span>
                 <span>I need <span>AIR</span>”</span>
               </h1> -->
-              <div class="coin"><img src="./assets/images/icon-coin.png" alt=""></div>
-              <div class="cloud"><img src="./assets/images/icon-cloud.png" alt=""></div>
-              <div class="bird"><img src="./assets/images/icon-bird.png" alt=""></div>
+              
+              <div class="cloud"><img class="img" src="./assets/images/icon-cloud.png" alt=""></div>
+              
               <div class="main-title">
+                <div class="icon-coin"><img class="img" src="./assets/images/icon-coin.png" alt=""></div>
+                <div class="bird"><img class="img" src="./assets/images/icon-bird.png" alt=""></div>
                 <div class="left-title">“ I can’t breathe</div>
                 <div class="right-title">I need <span class="theme-text">AIR</span><span class="smbol">”</span></div>
               </div>
               <h2 class="baseline">
+                <span class="baseline-title">What is Air ?</span>
                 <span class="theme-text">AIR</span> was issued to mock the madness of the <br/>
                 cryptocurrency market.  <br/>
                 <span class="theme-text">AIR</span> is everywhere, after buying <span class="theme-text">Air</span> coin you get <br/>
@@ -90,6 +118,80 @@
             <div class="social-item exchange"><a href="https://exchange.pancakeswap.finance/#/swap" target="_blank"><img src="./assets/images/icon-exchange.png" alt=""></a></div>
             <div class="social-item github"><a href="https://github.com/Aircoin-official" target="_blank"><img src="./assets/images/icon-github.png" alt=""></a></div>
           </div>
+          <div
+          id="menu"
+          class="social-menu mfb-component--br mfb-zoomin"
+          data-mfb-toggle="hover"
+        >
+          <li class="mfb-component__wrap">
+            <a href="javascript:;" class="mfb-component__button--main">
+              <i class="mfb-component__main-icon--resting ion-plus-round"></i>
+              <i class="mfb-component__main-icon--active ion-close-round"></i>
+            </a>
+            <ul class="mfb-component__list">
+              <li>
+                <a
+                  href="https://www.facebook.com/SamecoinCom"
+                  target="_blank"
+                  data-mfb-label="Facebook"
+                  class="mfb-component__button--child"
+                >
+                  <img
+                    src="./assets/images/home/0bd0f6c0cc43d9f94231ee16c6612fc0.svg"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com/SamecoinCom"
+                  target="_blank"
+                  data-mfb-label="Twitter"
+                  class="mfb-component__button--child"
+                >
+                  <img
+                    src="./assets/images/home/0e35d0f3d4fdc4708eef743d6929eb2c.svg"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://t.me/Samecoin"
+                  target="_blank"
+                  data-mfb-label="Telegram Group"
+                  class="mfb-component__button--child"
+                >
+                  <img
+                    src="./assets/images/home/2c741f58c7f3b1b4299a30dbf4fc85b9.svg"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://t.me/SamecoinANN"
+                  target="_blank"
+                  data-mfb-label="Telegram Channel"
+                  class="mfb-component__button--child"
+                >
+                  <img
+                    src="./assets/images/home/f7e10775faea56d6a6cca94d10a3cd90.svg"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://medium.com/samecoin"
+                  target="_blank"
+                  data-mfb-label="Medium"
+                  class="mfb-component__button--child"
+                >
+                  <img
+                    src="./assets/images/home/8f257653e0f3e3db6513166b36f35f63.svg"
+                  />
+                </a>
+              </li>
+            </ul>
+          </li>
+        </div>
           <footer class="page-footer">
             <div class="org">AIR is powered by AIR Labs</div>
             <div class="copyright">Copyright © 2021 AIR Labs All rights reserved.</div>

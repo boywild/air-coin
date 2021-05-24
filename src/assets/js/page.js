@@ -51,10 +51,10 @@ window.onload = function () {
     .fromTo(
       ".right-title",
       { duration: 1, autoAlpha: 0, ease: "bounce.out", top: 0 },
-      { duration: 1, autoAlpha: 1, ease: "bounce.out", top: "30%" }
+      { duration: 1, autoAlpha: 1, ease: "bounce.out", top: "40%" }
     )
     .fromTo(
-      ".coin",
+      ".icon-coin",
       { autoAlpha: 0 },
       {
         autoAlpha: 1,
