@@ -29,6 +29,9 @@ button {
 .sameeuro--bg {
   background: #006ef7;
 }
+.air--bg {
+  background: #286bb7;
+}
 .sameeuro--color {
   color: #006ef7;
 }
@@ -353,6 +356,9 @@ button {
   padding: 80px 40px 0;
   max-width: 940px;
 }
+.static > a {
+  color: #000;
+}
 .static__back {
   position: absolute;
   left: 0;
@@ -566,17 +572,21 @@ button {
   height: 30px;
 }
 .popup__coin {
-  display: inline-block;
-  vertical-align: top;
-  margin-top: -80px;
+  /* display: inline-block; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* vertical-align: top; */
+  margin: -80px auto 0 auto;
   width: 140px;
   height: 140px;
   border: 10px solid white;
   border-radius: 50%;
 }
 .popup__coin img {
-  margin-top: 16%;
-  height: 68%;
+  /* margin-top: 16%;
+  height: 68%; */
+  width: 80%;
 }
 .popup__title {
   margin: 20px 0;
@@ -634,7 +644,7 @@ button {
     left: 40px;
   }
   .header__coins {
-    left: 70px;
+    left: 120px;
   }
   .header__coins a {
     margin-left: 40px;
