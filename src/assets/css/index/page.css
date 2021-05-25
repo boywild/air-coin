@@ -339,8 +339,11 @@
     font-size: 24px;
     padding-right: 0;
   }
+  .main-title .right-title {
+    top: 30% !important;
+  }
   .main-title .right-title .theme-text {
-    font-size: 16px;
+    font-size: 20px;
     position: initial;
   }
   .main-title .right-title .smbol {
@@ -362,5 +365,7 @@
     right: 0;
     display: block;
     text-align: center;
+    overflow: hidden;
+    line-height: normal;
   }
 }

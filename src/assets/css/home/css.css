@@ -886,6 +886,7 @@ button {
   }
   .header__logo {
     top: 20px;
+    display: none;
   }
   .header__coins {
     top: 20px;
@@ -1006,6 +1007,9 @@ button {
   }
   .popup__social a img {
     height: 28px;
+  }
+  .social-menu{
+    right: 0;
   }
 }
 .popup-container {
