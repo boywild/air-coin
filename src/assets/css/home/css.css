@@ -93,6 +93,7 @@ button {
   align-items: center;
 }
 .header__logo {
+  margin-right: 20px;
 }
 .header__logo img {
   height: 30px;
@@ -359,7 +360,7 @@ button {
   position: relative;
   margin: 140px auto 0;
   padding: 80px 40px 0;
-  max-width: 1200px;
+  max-width: 1000px;
 }
 .static > a {
   color: #000;
@@ -648,7 +649,7 @@ button {
   .header__logo {
   }
   .header__coins {
-    left: 120px;
+    /* left: 120px; */
   }
   .header__coins a {
     margin-left: 18px;

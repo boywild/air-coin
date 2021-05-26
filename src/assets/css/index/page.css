@@ -285,6 +285,7 @@
   font-size: 17px;
   color: rgba(255, 255, 255, 0.4);
   font-family: "Helvetica Bold", Circular Pro Medium, sans-serif;
+  z-index: 5;
 }
 .page-footer .org span {
   color: rgba(255, 255, 255, 1);
