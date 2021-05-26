@@ -116,7 +116,8 @@
   opacity: 1;
 } */
 .loader {
-  background: linear-gradient(to right, #006abd  13%,#015fb0  40%,#0051a2 70%,#003b8c 100%);
+  /* background: linear-gradient(to right, #006abd  13%,#015fb0  40%,#0051a2 70%,#003b8c 100%); */
+  background: #fff;
   position: fixed;
   left: 0;
   top: 0;
@@ -138,7 +139,8 @@
 .video-background {
   position: absolute;
   left: 0;
-  top: 40px;
+  /* top: 40px; */
+  top: 0;
   width: inherit;
   height: inherit;
   overflow: hidden;
@@ -157,7 +159,7 @@
   width: 100%;
   height: 100vh;
   background: #fff;
-  background: linear-gradient(to right, #006abd  13%,#015fb0  40%,#0051a2 70%,#003b8c 100%);
+  /* background: linear-gradient(to right, #006abd  13%,#015fb0  40%,#0051a2 70%,#003b8c 100%); */
 }
 .home_intro .home_titles .title {
   margin-top: 5.8vw;

@@ -88,34 +88,34 @@ function submitSbRequestForm(id)
 
 function initCoins()
 {
-	$('.header').css('width', $(document).width()+'px');
-	$('.header').css('z-index', '150');
-	$('.coin').css('overflow', 'hidden');
-	$('.coin__information').css('overflow', 'hidden');
+	// $('.header').css('width', $(document).width()+'px');
+	// $('.header').css('z-index', '150');
+	// $('.coin').css('overflow', 'hidden');
+	// $('.coin__information').css('overflow', 'hidden');
 
-	lw = $('.coin__advantages-list').eq(curritem-1).width();
-	lh = $('.coin__advantages-list').eq(curritem-1).height();
-	rw = $('.coin__information').eq(curritem-1).width();
-	rh = $('.coin__information').eq(curritem-1).height();
+	// lw = $('.coin__advantages-list').eq(curritem-1).width();
+	// lh = $('.coin__advantages-list').eq(curritem-1).height();
+	// rw = $('.coin__information').eq(curritem-1).width();
+	// rh = $('.coin__information').eq(curritem-1).height();
 	
-	$('.coin__information--full').css({
-		'width': rw+'px'
-	});
+	// $('.coin__information--full').css({
+	// 	'width': rw+'px'
+	// });
 	
-	initMouseWheel();
-	$('.coin__item').hide();
-	$('.coin__item').eq(curritem-1).show();
-	$('.coin__coin').removeClass('sameusd--bg');
-	$('.coin__coin').removeClass('samecoin--bg');
-	$('.coin__coin').removeClass('sameeuro--bg');
-	$('.coin__coin').addClass('same'+$('.coin__item').eq(curritem-1).attr('data-type')+'--bg');
-	showCoinImage();
+	// initMouseWheel();
+	// $('.coin__item').hide();
+	// $('.coin__item').eq(curritem-1).show();
+	// $('.coin__coin').removeClass('sameusd--bg');
+	// $('.coin__coin').removeClass('samecoin--bg');
+	// $('.coin__coin').removeClass('sameeuro--bg');
+	// $('.coin__coin').addClass('same'+$('.coin__item').eq(curritem-1).attr('data-type')+'--bg');
+	// showCoinImage();
 
-	coin_x = parseInt($('.coin__coin')[0].offsetLeft + $('.coin__coin')[0].offsetWidth / 2);
-	coin_y = parseInt($('.coin__coin')[0].offsetTop + $('.coin__coin')[0].offsetHeight / 2);
-	console.log(coin_x + ' ' + coin_y);
+	// coin_x = parseInt($('.coin__coin')[0].offsetLeft + $('.coin__coin')[0].offsetWidth / 2);
+	// coin_y = parseInt($('.coin__coin')[0].offsetTop + $('.coin__coin')[0].offsetHeight / 2);
+	// console.log(coin_x + ' ' + coin_y);
 
-	$('.coin__item, .coin__coin').css({'opacity': '1', 'transition': '0.5s'});
+	// $('.coin__item, .coin__coin').css({'opacity': '1', 'transition': '0.5s'});
 }
 
 function initOwlCarousel() 

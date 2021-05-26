@@ -95,7 +95,7 @@ button {
 .header__logo {
 }
 .header__logo img {
-  height: 50px;
+  height: 30px;
 }
 .header__menu {
   /* position: absolute;
@@ -157,17 +157,14 @@ button {
   background: #006ef7;
 }
 .header__button {
-  /* position: absolute;
-  right: 60px;
-  top: 30px; */
   padding: 0 25px;
   background: #2c71f6;
   border-radius: 40px;
-  line-height: 50px;
   font-size: 20px;
-  font-weight: 600;
-  text-decoration: none;
+  /* font-weight: 600; */
+  /* text-decoration: none; */
   color: white;
+  line-height: 50px;
 }
 [id="main-navigation-toggle"] ~ label {
   display: none;
@@ -399,7 +396,7 @@ button {
   transform: rotate(135deg);
 }
 .static__title {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   font-size: 46px;
   line-height: 48px;
   font-weight: 800;
@@ -409,14 +406,14 @@ button {
   text-align: justify;
 }
 .static__desc p {
-  margin-top: 30px;
+  margin-top: 10px;
   font-size: 20px;
   font-weight: 300;
   color: black;
   line-height: 28px;
 }
 .benefits {
-  margin: 30px 0 70px;
+  margin: 30px 0 100px;
 }
 .benefits__item {
   display: inline-block;
@@ -440,9 +437,9 @@ button {
 }
 .benefits__desc {
   margin-top: 10px;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 300;
-  color: black;
+  color: #797575;
   line-height: 28px;
 }
 .samepay-app {
@@ -534,7 +531,7 @@ button {
   color: #381099;
 }
 .contacts__social {
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 .contacts__social a {
   display: inline-block;
@@ -711,7 +708,7 @@ button {
     font-size: 21px;
   }
   .benefits__desc {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 26px;
   }
 }
@@ -753,7 +750,7 @@ button {
     font-size: 20px;
   }
   .benefits__desc {
-    font-size: 17px;
+    font-size: 15px;
     line-height: 25px;
   }
 }
@@ -1288,7 +1285,7 @@ button {
   }
 }
 .air-home {
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 .air-home img {
   max-width: 100%;
@@ -1326,7 +1323,8 @@ button {
   -moz-transform: rotate(-60deg);
   -webkit-transform: rotate(-60deg);
   visibility: visible;
-  background: #f00;
+  background: #333;
+  color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1335,7 +1333,7 @@ button {
 }
 .timeline-box {
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 .timeline-box .through-line {
   height: 3px;
@@ -1345,7 +1343,8 @@ button {
   right: 0;
   top: 50%;
   transform: translateY(-50%);
-  background: #b5b5b5;
+  /* background: #b5b5b5; */
+  background: linear-gradient(to right, #2fb0ec 0%, #2c71f6 100%);
 }
 .timeline-box .through-line::before {
   content: "";
@@ -1356,8 +1355,8 @@ button {
   transform: translateY(-50%);
   width: 7px;
   height: 7px;
-  border: 2px solid #b5b5b5;
-  background: #fff;
+  border: 2px solid #2fb0ec;
+  background: #2fb0ec;
 }
 .timeline-box .through-line::after {
   content: "";
@@ -1369,7 +1368,7 @@ button {
   height: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-left: 10px solid #b5b5b5;
+  border-left: 10px solid #2c71f6;
 }
 
 .timeline-box .timeline {
@@ -1394,7 +1393,7 @@ button {
   height: 158px;
   width: 20%;
 }
-.timeline .time-step.yellow .handle .dot {
+/* .timeline .time-step.yellow .handle .dot {
   border-color: #dd9a3d;
 }
 .timeline .time-step.yellow .handle .line,
@@ -1421,7 +1420,7 @@ button {
 .timeline .time-step.green .handle .line,
 .timeline .time-step.green .boxT {
   background-color: #80c7be;
-}
+} */
 .timeline .time-step .handle {
   display: flex;
   flex-direction: column;
@@ -1433,13 +1432,13 @@ button {
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  border: 2px solid transparent;
+  border: 2px solid #333;
   background: #fff;
 }
 .timeline .time-step .handle .line {
   width: 1.5px;
   height: 40px;
-  background: transparent;
+  background: #333;
 }
 .timeline .time-step .body {
   position: relative;
@@ -1454,7 +1453,6 @@ button {
   left: calc(100% + 20px);
   top: 50%;
   transform: translateY(-50%);
-  color: #000;
   width: 300px;
   font-size: 15px;
   line-height: normal;
