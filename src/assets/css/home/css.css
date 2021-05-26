@@ -86,6 +86,9 @@ button {
 .header .header-right {
   padding-right: 30px;
 }
+.header .header__menu{
+  padding-right: 50px;
+}
 .header .header-left,
 .header .header-right {
   display: flex;
@@ -133,7 +136,7 @@ button {
   margin: 0;
   padding: 0;
   line-height: 48px;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 700;
   color: black;
 }
@@ -655,7 +658,7 @@ button {
     margin-left: 18px;
   }
   .header__coins a p {
-    font-size: 21px;
+    font-size: 18px;
   }
   .header__menu a {
     margin-right: 15px;
@@ -1324,7 +1327,7 @@ button {
   -moz-transform: rotate(-60deg);
   -webkit-transform: rotate(-60deg);
   visibility: visible;
-  background: #333;
+  background: #2565b1;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -1344,8 +1347,8 @@ button {
   right: 0;
   top: 50%;
   transform: translateY(-50%);
-  /* background: #b5b5b5; */
-  background: linear-gradient(to right, #2fb0ec 0%, #2c71f6 100%);
+  background: #333;
+  /* background: linear-gradient(to right, #2fb0ec 0%, #2c71f6 100%); */
 }
 .timeline-box .through-line::before {
   content: "";
@@ -1356,8 +1359,8 @@ button {
   transform: translateY(-50%);
   width: 7px;
   height: 7px;
-  border: 2px solid #2fb0ec;
-  background: #2fb0ec;
+  border: 2px solid #333;
+  background: #333;
 }
 .timeline-box .through-line::after {
   content: "";
@@ -1369,7 +1372,7 @@ button {
   height: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-left: 10px solid #2c71f6;
+  border-left: 10px solid #333;
 }
 
 .timeline-box .timeline {
