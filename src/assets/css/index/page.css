@@ -272,13 +272,14 @@
   display: block;
 }
 .page-footer {
+  font-family: "Helvetica Bold", Circular Pro Medium, sans-serif;
   position: absolute;
   left: 30px;
   right: 30px;
   bottom: 20px;
   display: flex;
   justify-content: space-between;
-  font-size: 16px;
+  font-size: 17px;
   color: rgba(255, 255, 255, 0.4);
   font-family: "Helvetica Bold", Circular Pro Medium, sans-serif;
 }

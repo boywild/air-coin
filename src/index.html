@@ -32,44 +32,56 @@
     <span>Loading...</span>
   </div>
   <div class="header header--in light" id="main-head">
-    <a href="./index.html" class="header__logo"
-      ><img src="./assets/images/logo.png"
-    /></a>
-    <div class="header__coins">
-      <a href="https://twitter.com/Aircoinreal" target="_blank" class="samecoin">
-        <div class="coin-icon">
-          <img
-            src="./assets/images/icon-twitter.svg"
-          />
-        </div>
-        <p>Twitter</p>
-      </a>
-      <a href="https://t.me/aircoinreal" target="_blank" class="sameusd">
-        <div class="coin-icon">
-          <img
-            src="./assets/images/icon-telegram.svg"
-          />
-        </div>
-        <p>Telegram</p>
-      </a>
-      <a href="https://github.com/Aircoin-official" target="_blank" class="sameeuro">
-        <div class="coin-icon">
-          <img
-            src="./assets/images/icon-github.svg"
-          />
-        </div>
-        <p>Github</p>
-      </a>
+    <div class="header-left">
+      <a href="./index.html" class="header__logo"
+        ><img src="./assets/images/logo.png"
+      /></a>
+      <div class="header__coins">
+        <a href="https://twitter.com/Aircoinreal" target="_blank" class="samecoin">
+          <div class="coin-icon">
+            <img
+              src="./assets/images/icon-twitter.svg"
+            />
+          </div>
+          <p>Twitter</p>
+        </a>
+        <a href="https://t.me/aircoinreal" target="_blank" class="sameusd">
+          <div class="coin-icon">
+            <img
+              src="./assets/images/icon-telegram.svg"
+            />
+          </div>
+          <p>Telegram</p>
+        </a>
+        <a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xa123ab52a32267dc357b7599739d3c6caf856fe4" target="_blank" class="sameusd">
+          <div class="coin-icon">
+            <img
+              src="./assets/images/icon-pancakeSwap.svg"
+            />
+          </div>
+          <p>PancakeSwap</p>
+        </a>
+        <a href="https://github.com/Aircoin-official" target="_blank" class="sameeuro">
+          <div class="coin-icon">
+            <img
+              src="./assets/images/icon-github.svg"
+            />
+          </div>
+          <p>Github</p>
+        </a>
+      </div>
     </div>
-    <div class="header__menu">
-      <a href="./index.html">Home</a>
-      <a href="./about.html#about">About</a>
-      <a href="./about.html#roadmap">Roadmap</a>
-      <a href="./about.html#contacts">Contact</a>
+    <div class="header-right">
+      <div class="header__menu">
+        <a href="./index.html">Home</a>
+        <a href="./about.html#about">About</a>
+        <a href="./about.html#roadmap">Roadmap</a>
+        <a href="./about.html#contacts">Contact</a>
+      </div>
+      <a href="javascript:openSubscribe('14', 'coin')" class="header__button"
+        >Launch app</a
+      >
     </div>
-    <a href="javascript:openSubscribe('14', 'coin')" class="header__button"
-      >Launch app</a
-    >
   </div>
   <div id="container" role="main">
     <div id="home" class="home">
@@ -104,13 +116,13 @@
                 <div class="icon-coin"><img class="img" src="./assets/images/icon-coin.png" alt=""></div>
                 <div class="bird"><img class="img" src="./assets/images/icon-bird.png" alt=""></div>
                 <div class="left-title">“ I can’t breathe</div>
-                <div class="right-title">I need <span class="theme-text">Air</span><span class="smbol">”</span></div>
+                <div class="right-title">I need <span class="theme-text">AIR</span><span class="smbol">”</span></div>
               </div>
               <h2 class="baseline">
                 <span class="baseline-title">What is Air ?</span>
                 <span class="theme-text">AIR</span> was issued to mock the madness of the <br/>
                 cryptocurrency market.  <br/>
-                <span class="theme-text">AIR</span> is everywhere, after buying <span class="theme-text">Air</span> coin you get <br/>
+                <span class="theme-text">AIR</span> is everywhere, after buying <span class="theme-text">AIR</span> Coin you get <br/>
                 nothing but <span class="theme-text">AIR</span>.
               </h2>
             </div>
@@ -142,7 +154,7 @@
                 <a
                   href="https://bscscan.com/token/0xa123ab52a32267dc357b7599739d3c6caf856fe4"
                   target="_blank"
-                  data-mfb-label="Bsc Scan"
+                  data-mfb-label="BscScan"
                   class="mfb-component__button--child"
                 >
                   <img
@@ -152,13 +164,25 @@
               </li>
               <li>
                 <a
-                  href="https://exchange.pancakeswap.finance/#/swap"
+                  href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xa123ab52a32267dc357b7599739d3c6caf856fe4"
                   target="_blank"
-                  data-mfb-label="Pancake Swap"
+                  data-mfb-label="PancakeSwap"
                   class="mfb-component__button--child"
                 >
                   <img
                     src="./assets/images/icon-pancakeSwap.svg"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://t.me/aircoinreal"
+                  target="_blank"
+                  data-mfb-label="Telegram Group"
+                  class="mfb-component__button--child"
+                >
+                  <img
+                    src="./assets/images/icon-telegram.svg"
                   />
                 </a>
               </li>
