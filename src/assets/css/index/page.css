@@ -280,6 +280,7 @@
   justify-content: space-between;
   font-size: 16px;
   color: rgba(255, 255, 255, 0.4);
+  font-family: "Helvetica Bold", Circular Pro Medium, sans-serif;
 }
 .page-footer .org span {
   color: rgba(255, 255, 255, 1);
