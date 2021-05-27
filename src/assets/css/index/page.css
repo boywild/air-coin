@@ -211,13 +211,14 @@
 .main-title .left-title {
   position: absolute;
   right: calc(50% + 190px);
-  top: 30%;
+  top: 42%;
+  transform: translateY(-50%);
   opacity: 1;
 }
 .main-title .right-title {
   position: absolute;
   right: calc(50% + 190px);
-  top: 50%;
+  top: 52%;
   padding-right: 132px;
   opacity: 1;
 }
@@ -267,7 +268,8 @@
   line-height: 36px;
   position: absolute;
   left: calc(50% + 180px);
-  top: 25%;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .baseline .baseline-title{
   font-family: "Helvetica Bold", Circular Pro Medium, sans-serif;
@@ -295,7 +297,7 @@
   height: 35px;
   position: absolute;
   right: calc(50% + 500px);
-  top: 26%;
+  top: 35%;
   z-index: 10;
   opacity: 0;
 }
@@ -313,7 +315,7 @@
   height: 64px;
   position: absolute;
   right: calc(50% + 310px);
-  top: 37%;
+  top: 50%;
   z-index: 10;
   opacity: 0;
 }
