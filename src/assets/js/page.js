@@ -122,7 +122,6 @@ window.onload = function () {
 
   // 文字描述动画
   subTitle.words.forEach(function (t, i) {
-    console.log(t);
     TweenLite.set(t, { autoAlpha: 0 });
     gsapTimeline.to(t, 0, { autoAlpha: 1 }, 2.98 + 0.7 + 0.09 * i);
   });

@@ -25,7 +25,6 @@
   cursor: grabbing;
 }
 .loader {
-  /* background: linear-gradient(to right, #006abd  13%,#015fb0  40%,#0051a2 70%,#003b8c 100%); */
   background: #fff;
   position: fixed;
   left: 0;
@@ -68,7 +67,6 @@
   width: 100%;
   height: 100vh;
   background: #fff;
-  /* background: linear-gradient(to right, #006abd  13%,#015fb0  40%,#0051a2 70%,#003b8c 100%); */
 }
 .home_intro .home_titles .title {
   margin-top: 5.8vw;
