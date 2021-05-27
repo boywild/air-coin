@@ -86,7 +86,7 @@ button {
 .header .header-right {
   padding-right: 30px;
 }
-.header .header__menu{
+.header .header__menu {
   padding-right: 50px;
 }
 .header .header-left,
@@ -783,6 +783,7 @@ button {
   [id="main-navigation-toggle"] ~ label {
     display: inherit;
     top: 30px;
+    display: none;
   }
 }
 @media screen and (max-width: 1300px) {
@@ -893,6 +894,10 @@ button {
   .header {
     height: 90px;
     padding: 0 5px;
+    width: 100%;
+  }
+  .header .header-left {
+    padding-left: 0;
   }
   .header__logo {
     display: none;
@@ -979,6 +984,9 @@ button {
   .benefits {
     margin-bottom: 20px;
   }
+  .social-menu {
+    bottom: 71px;
+  }
 }
 @media screen and (max-width: 700px) {
   .header__coins {
@@ -1029,6 +1037,12 @@ button {
   }
   .social-menu {
     right: 0;
+  }
+  .timeline .time-step {
+    width: 100%;
+  }
+  .timeline .time-step .handle {
+    display: none;
   }
 }
 .popup-container {
@@ -1461,4 +1475,96 @@ button {
   font-size: 15px;
   line-height: normal;
   color: #797575;
+}
+@media screen and (max-width: 700px) {
+  .header__coins {
+    left: 0;
+    right: 0;
+  }
+  .header__coins a {
+    margin: 0 10px;
+  }
+  .coin__advantages-item {
+    text-align: center;
+  }
+  .team {
+    grid-template-columns: 1fr;
+  }
+  .samepay-app {
+    padding: 30px 30px 20px;
+  }
+  .samepay-app__phone {
+    width: 100%;
+    text-align: center;
+  }
+  .samepay-app img {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    width: auto;
+    max-width: 100%;
+    margin: 30px 0 -280px;
+  }
+  .popup {
+    padding: 0 30px 30px;
+  }
+  .popup__title {
+    font-size: 22px;
+  }
+  .popup__desc {
+    font-size: 17px;
+  }
+  .popup__subscribe input {
+    font-size: 17px;
+  }
+  .popup__social a img {
+    height: 28px;
+  }
+  .social-menu {
+    right: 0;
+  }
+  .timeline .time-step {
+    width: 100%;
+  }
+  .timeline .time-step .handle {
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  .social-menu {
+    right: 0;
+  }
+  .timeline-box .timeline{
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .timeline-box .through-line{
+    display: none;
+  }
+  .timeline .time-step {
+    width: 100%;
+  }
+  .timeline .time-step .handle {
+    display: none;
+  }
+  .timeline .time-step .content{
+    position: relative;
+    left: auto;
+    top: auto;
+    transform: translateY(0);
+    text-align: center;
+  }
+  .timeline .time-step .title{
+    margin: 0 auto;
+  }
+  .timeline .time-step .body{
+    width: auto;
+  }
+  .timeline .time-step{
+    height: auto;
+    margin-bottom: 20px;
+  }
 }

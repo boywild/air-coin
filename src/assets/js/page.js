@@ -42,6 +42,7 @@ window.onload = function () {
     )
     .to(videoBg, 0.2, { autoAlpha: 1 }, 0.3)
     .to(".header", { autoAlpha: 1 }, "+=2")
+    .to(".baseline", { autoAlpha: 1 })
 
     .fromTo(
       ".left-title",

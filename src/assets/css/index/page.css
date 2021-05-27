@@ -296,7 +296,7 @@
   height: 35px;
   position: absolute;
   right: calc(50% + 500px);
-  top: 32%;
+  top: 28%;
   z-index: 10;
   opacity: 0;
 }
