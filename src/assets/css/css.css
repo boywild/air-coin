@@ -14,27 +14,11 @@ button {
   outline: none;
   resize: none;
 }
-.samecoin--bg {
-  background: #f0ff00;
-}
-.samecoin--color {
-  color: #381099;
-}
-.sameusd--bg {
-  background: #0de415;
-}
-.sameusd--color {
-  color: #0de415;
-}
-.sameeuro--bg {
-  background: #006ef7;
-}
+
 .air--bg {
   background: #286bb7;
 }
-.sameeuro--color {
-  color: #006ef7;
-}
+
 .copyright {
   left: 60px;
   bottom: 48px;
@@ -149,17 +133,7 @@ button {
   border-radius: 50%;
   text-align: center;
 }
-.header__coins .coin-icon img {
-}
-.header__coins .coin-icon--samecoin {
-  background: #f0ff00;
-}
-.header__coins .coin-icon--sameusd {
-  background: #0de415;
-}
-.header__coins .coin-icon--sameeuro {
-  background: #006ef7;
-}
+
 .header__button {
   padding: 0 25px;
   background: #2c71f6;
@@ -273,9 +247,6 @@ button {
   font-size: 20px;
   font-weight: 600;
   color: #006abd;
-}
-.contacts__social {
-  /* margin-top: 20px; */
 }
 .contacts__social a {
   display: inline-block;
@@ -518,48 +489,6 @@ button {
   .header .menu-icon-container {
     top: 20px;
   }
-  .coin__item {
-    margin-top: 90px;
-  }
-  .coin__advantages {
-    padding: 0;
-  }
-  .coin__advantages-title {
-    font-size: 20px;
-  }
-  .coin__advantages-desc {
-    font-size: 16px;
-  }
-  .coin__center {
-    margin-top: 125px;
-  }
-  .coin__coin {
-    width: 140px;
-    height: 140px;
-  }
-  .coin__information--full {
-    padding: 200px 0 40px;
-  }
-  .coin__title {
-    font-size: 44px;
-  }
-  .coin__desc {
-    margin-top: 15px;
-    font-size: 17px;
-  }
-  .coin__buy {
-    margin-top: 25px;
-    padding: 8px 32px 8px 8px;
-    font-size: 24px;
-  }
-  .coin__whitepaper {
-    margin-top: 25px;
-    line-height: 28px;
-    font-size: 18px;
-  }
-  .coin__whitepaper img {
-    height: 28px;
-  }
   .static {
     margin-top: 120px;
     padding-left: 10px;
@@ -600,27 +529,6 @@ button {
   }
   .coin__advantages-item {
     text-align: center;
-  }
-  .team {
-    grid-template-columns: 1fr;
-  }
-  .samepay-app {
-    padding: 30px 30px 20px;
-  }
-  .samepay-app__phone {
-    width: 100%;
-    text-align: center;
-  }
-  .samepay-app img {
-    display: inline-block;
-    vertical-align: top;
-    position: relative;
-    right: auto;
-    top: auto;
-    bottom: auto;
-    width: auto;
-    max-width: 100%;
-    margin: 30px 0 -280px;
   }
   .popup {
     padding: 0 30px 30px;
