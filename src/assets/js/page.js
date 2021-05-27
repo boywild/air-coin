@@ -46,12 +46,12 @@ window.onload = function () {
     .fromTo(
       ".left-title",
       { duration: 1, autoAlpha: 0, ease: "bounce.out", top: 0 },
-      { duration: 1, autoAlpha: 1, ease: "bounce.out", top: "30%" }
+      { duration: 1, autoAlpha: 1, ease: "bounce.out", top: "35%" }
     )
     .fromTo(
       ".right-title",
       { duration: 1, autoAlpha: 0, ease: "bounce.out", top: 0 },
-      { duration: 1, autoAlpha: 1, ease: "bounce.out", top: "40%" }
+      { duration: 1, autoAlpha: 1, ease: "bounce.out", top: "46%" }
     )
     .fromTo(
       ".icon-coin",
@@ -61,15 +61,15 @@ window.onload = function () {
         duration: 1,
       }
     )
-    .fromTo(
-      ".cloud",
-      { autoAlpha: 0, top: "30%" },
-      {
-        autoAlpha: 1,
-        duration: 0.5,
-        top: "20%",
-      }
-    )
+    // .fromTo(
+    //   ".cloud",
+    //   { autoAlpha: 0, top: "30%" },
+    //   {
+    //     autoAlpha: 1,
+    //     duration: 0.5,
+    //     top: "20%",
+    //   }
+    // )
     .fromTo(
       ".bird",
       { autoAlpha: 0 },
@@ -77,16 +77,16 @@ window.onload = function () {
         autoAlpha: 1,
         duration: 1,
       }
-    )
-    .to(".cloud", {
-      transformOrigin: "bottom center",
-      y: -15,
-      rotation: 1,
-      duration: 2,
-      ease: "sine.inOut",
-      yoyo: true,
-      repeat: -1,
-    });
+    );
+  // .to(".cloud", {
+  //   transformOrigin: "bottom center",
+  //   y: -15,
+  //   rotation: 1,
+  //   duration: 2,
+  //   ease: "sine.inOut",
+  //   yoyo: true,
+  //   repeat: -1,
+  // });
 
   // 标题动画ƒ
   titleWord1.words.forEach(function (t, i) {
