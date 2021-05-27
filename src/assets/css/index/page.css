@@ -211,7 +211,8 @@
 .main-title .left-title {
   position: absolute;
   right: calc(50% + 190px);
-  top: 30%;
+  top: 42%;
+  transform: translateY(-50%);
   opacity: 1;
 }
 .main-title .right-title {
