@@ -1,13 +1,4 @@
-.dg * {
-  pointer-events: auto;
-}
-.dg.ac {
-  z-index: 999 !important;
-}
-.dg.ac .close-button,
-.dg.ac .property-name {
-  color: #fff;
-}
+
 .hiding {
   position: absolute !important;
 }
@@ -22,9 +13,6 @@
 .scrollable {
   z-index: 1;
   width: 100%;
-}
-.is-mobile .scrollable {
-  overflow: hidden;
 }
 .page-wrapper {
   min-height: 100vh;
@@ -239,7 +227,6 @@
   z-index: 10;
   opacity: 0;
 }
-
 @media only screen and (min-width: 310px) and (max-width: 400px) {
   .social-area {
     left: 5px;

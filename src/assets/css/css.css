@@ -173,192 +173,6 @@ button {
 [id="main-navigation-toggle"] ~ label {
   display: none;
 }
-.coin {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  min-height: 740px;
-  height: 100%;
-  box-sizing: border-box;
-}
-.coin__center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-}
-.coin__coin {
-  width: 360px;
-  height: 360px;
-  border-radius: 50%;
-  text-align: center;
-  z-index: 100;
-  transition: 2s;
-}
-.coin__coin img {
-  margin-top: 16%;
-  height: 68%;
-}
-.coin__coin--scale {
-  transform: scale(1.05, 1.05) !important;
-  transition: 0.3s;
-}
-.coin__coin--noscale {
-  transform: scale(1, 1);
-  transition: 0.3s;
-}
-.coin__item {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0px;
-  left: 0px;
-}
-.coin__advantages-list {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 50%;
-  height: 100%;
-  overflow: hidden;
-}
-.coin__advantages {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  margin: 0;
-  padding: 0 270px 0 150px;
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;
-}
-.coin__advantages-item {
-  display: inline-block;
-  vertical-align: top;
-  margin: 25px 0;
-}
-.coin__advantages-title {
-  display: inline-block;
-  vertical-align: top;
-  font-size: 25px;
-  font-weight: 700;
-  color: black;
-}
-.coin__advantages-desc {
-  display: inline-block;
-  vertical-align: top;
-  margin-top: 10px;
-  font-size: 20px;
-  font-weight: 300;
-  opacity: 0.5;
-}
-.coin__advantages-desc p {
-  margin: 15px 0 0;
-  padding: 0;
-}
-.owl-dots {
-  text-align: center;
-}
-.owl-dots button {
-  margin: 0 6px;
-  width: 8px;
-  height: 8px;
-  background: black !important;
-  border-radius: 50%;
-  opacity: 0.5;
-}
-.owl-dots button.active {
-  opacity: 1;
-}
-.coin__information {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 50%;
-  height: 100%;
-  box-sizing: border-box;
-  overflow: hidden;
-}
-.coin__information--samecoin {
-  background: #fcffcb;
-}
-.coin__information--sameusd {
-  background: #edfbdb;
-}
-.coin__information--sameeuro {
-  background: #e5fcff;
-}
-.coin__information--full {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  padding: 0 170px 0 270px;
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-}
-.coin__title {
-  margin-top: -10px;
-  font-size: 80px;
-  font-weight: 800;
-  color: black;
-}
-.coin__desc {
-  margin-top: 30px;
-  font-size: 22px;
-  color: black;
-}
-.coin__buy {
-  display: inline-block;
-  vertical-align: top;
-  margin-top: 50px;
-  padding: 12px 32px 12px 12px;
-  line-height: 42px;
-  background: black;
-  border-radius: 40px;
-  font-size: 26px;
-  font-weight: 600;
-  text-decoration: none;
-  color: white;
-}
-.coin__buy-coin {
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 8px;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  text-align: center;
-}
-.coin__buy-coin img {
-  margin-top: 16%;
-  height: 68%;
-}
-.coin__whitepaper {
-  display: inline-block;
-  vertical-align: top;
-  margin-top: 50px;
-  line-height: 30px;
-  font-size: 20px;
-  font-weight: 600;
-  color: black;
-  text-decoration: none;
-}
-.coin__whitepaper img {
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 6px;
-  height: 32px;
-}
-.coin__whitepaper a {
-  margin-left: 6px;
-  text-decoration: none;
-  padding-bottom: 2px;
-  border-bottom: 2px dashed black;
-  color: #381099;
-}
 .static {
   position: relative;
   margin: 140px auto 0;
@@ -446,81 +260,7 @@ button {
   color: #797575;
   line-height: 28px;
 }
-.samepay-app {
-  position: relative;
-  padding: 60px 370px 50px 60px;
-  margin-bottom: 50px;
-  background: #381099;
-  overflow: hidden;
-}
-.samepay-app__title {
-  margin-bottom: 30px;
-  font-size: 38px;
-  font-weight: 700;
-  color: white;
-}
-.samepay-app p {
-  margin-top: 10px;
-  font-size: 19px;
-  font-weight: 300;
-  color: white;
-  line-height: 28px;
-}
-.samepay-app__button {
-  display: inline-block;
-  vertical-align: top;
-  margin-top: 20px;
-  padding: 20px 35px;
-  background: black;
-  border-radius: 30px;
-  font-size: 20px;
-  text-decoration: none;
-  color: white;
-}
-.samepay-app img {
-  position: absolute;
-  right: 60px;
-  top: 50px;
-  bottom: 0;
-  width: 280px;
-  height: auto;
-}
-.team {
-  margin: 60px 0 70px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 50px;
-}
-.team__item:hover .team__image img {
-  -webkit-filter: grayscale(0%);
-  filter: grayscale(0%);
-  transform: scale(1.2);
-}
-.team__image {
-  width: 100%;
-  height: 280px;
-  overflow: hidden;
-}
-.team__image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  transition: 0.2s;
-}
-.team__name {
-  margin: 20px 0 10px;
-  font-size: 22px;
-  font-weight: 700;
-  color: black;
-}
-.team__position {
-  font-size: 20px;
-  font-weight: 300;
-  color: black;
-  line-height: 28px;
-}
+
 .contacts {
   padding-bottom: 90px;
 }
@@ -667,28 +407,6 @@ button {
     /* right: 40px; */
     padding: 0 10px;
   }
-  .coin__advantages {
-    padding: 0 240px 0 110px;
-  }
-  .coin__advantages-title {
-    font-size: 22px;
-  }
-  .coin__advantages-desc {
-    font-size: 18px;
-  }
-  .coin__coin {
-    width: 320px;
-    height: 320px;
-  }
-  .coin__right--full {
-    padding: 0 110px 0 240px;
-  }
-  .coin__title {
-    font-size: 70px;
-  }
-  .coin__desc {
-    font-size: 20px;
-  }
   .copyright {
     left: 40px;
     bottom: 38px;
@@ -717,28 +435,6 @@ button {
   }
 }
 @media screen and (max-width: 1500px) {
-  .coin__advantages {
-    padding: 0 220px 0 55px;
-  }
-  .coin__advantages-title {
-    font-size: 21px;
-  }
-  .coin__advantages-desc {
-    font-size: 17px;
-  }
-  .coin__coin {
-    width: 320px;
-    height: 320px;
-  }
-  .coin__right--full {
-    padding: 0 55px 0 220px;
-  }
-  .coin__title {
-    font-size: 66px;
-  }
-  .coin__desc {
-    font-size: 19px;
-  }
   .static__back {
     font-size: 17px;
   }
@@ -787,28 +483,6 @@ button {
   }
 }
 @media screen and (max-width: 1300px) {
-  .coin__advantages {
-    padding: 0 180px 0 55px;
-  }
-  .coin__advantages-title {
-    font-size: 20px;
-  }
-  .coin__advantages-desc {
-    font-size: 16px;
-  }
-  .coin__coin {
-    width: 280px;
-    height: 280px;
-  }
-  .coin__information--full {
-    padding: 0 55px 0 180px;
-  }
-  .coin__title {
-    font-size: 60px;
-  }
-  .coin__desc {
-    font-size: 18px;
-  }
 }
 @media screen and (max-width: 1100px) {
   .main-page {
@@ -816,78 +490,6 @@ button {
   }
   .header {
     background: white;
-  }
-  .coin {
-    position: absolute;
-  }
-  .coin__item {
-    position: absolute;
-    margin-top: 110px;
-    height: auto;
-  }
-  .coin__advantages-list {
-    position: relative;
-    width: 100%;
-    height: auto;
-  }
-  .coin__advantages {
-    position: relative;
-    padding: 40px 50px;
-    width: 100%;
-  }
-  .coin__advantages-item {
-    padding: 0 40px;
-    box-sizing: border-box;
-  }
-  .coin__advantages-title {
-    font-size: 22px;
-  }
-  .coin__advantages-desc {
-    font-size: 18px;
-  }
-  .coin__center {
-    margin-top: 180px;
-    align-items: flex-start;
-  }
-  .coin__information {
-    display: inline-block;
-    vertical-align: top;
-    position: relative;
-    width: 100%;
-    height: auto;
-    text-align: center;
-  }
-  .coin__information--full {
-    display: inline-block;
-    vertical-align: top;
-    position: relative;
-    padding: 400px 0 70px;
-  }
-  .coin__desc {
-    margin-top: 20px;
-    font-size: 19px;
-  }
-  .team {
-    grid-template-columns: 1fr 1fr;
-  }
-  .team__image {
-    height: 380px;
-  }
-  .samepay-app {
-    padding: 60px 200px 50px 60px;
-  }
-  .samepay-app__title {
-    font-size: 35px;
-  }
-  .samepay-app p {
-    font-size: 18px;
-    line-height: 26px;
-  }
-  .samepay-app__button {
-    font-size: 18px;
-  }
-  .samepay-app img {
-    right: -120px;
   }
 }
 @media screen and (max-width: 900px) {
@@ -1048,11 +650,6 @@ button {
 .popup-container {
   opacity: 0;
   display: none;
-}
-:root {
-  --color-dark: black;
-  --td: 150ms;
-  --te: cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .nav-main {
   align-items: center;
@@ -1491,14 +1088,14 @@ button {
 .ion-close-round:before {
   content: "\f129";
   display: inline-block;
-    font-family: "Ionicons";
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    text-rendering: auto;
-    line-height: 1;
+  font-family: "Ionicons";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-rendering: auto;
+  line-height: 1;
 }
 @media screen and (max-width: 700px) {
   .social-menu {
