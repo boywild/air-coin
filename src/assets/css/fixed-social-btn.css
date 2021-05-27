@@ -50,9 +50,6 @@
   bottom: 0;
 }
 
-.mfb-component--br {
-}
-
 /*------------------------------------*\
     #BUTTONS | Base
 \*------------------------------------*/
@@ -119,10 +116,6 @@
   line-height: 48px;
   width: 100%;
 }
-
-.mfb-component__wrap {
-}
-
 [data-mfb-toggle="hover"]:hover .mfb-component__icon,
 [data-mfb-toggle="hover"]:hover .mfb-component__main-icon--active,
 [data-mfb-toggle="hover"]:hover .mfb-component__main-icon--resting,
