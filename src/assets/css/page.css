@@ -224,6 +224,26 @@
   z-index: 10;
   opacity: 0;
 }
+@media screen and (min-width: 1700px) and (max-width: 1920px){
+  .icon-coin{
+    right: calc(50% + 630px);
+  }
+  .main-title{
+    font-size: 60px;
+  }
+  .main-title .left-title{
+    right: calc(50% + 250px);
+  }
+  .main-title .right-title{
+    right: calc(50% + 250px);
+  }
+  .bird{
+    right: calc(50% + 367px);
+  }
+  .baseline{
+    left: calc(50% + 234px);
+  }
+}
 @media screen and (max-width: 700px) {
   .social-area {
     left: 5px;
