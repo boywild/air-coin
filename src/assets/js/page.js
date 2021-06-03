@@ -22,9 +22,6 @@ window.onload = function () {
   });
 
   gsapTimeline.set(videoBg, { scale: 0.5, autoAlpha: 0 });
-  gsapTimeline.add(function () {
-    introVideo.play();
-  }, 0.3);
 
   // 视频背景动画
   gsapTimeline
@@ -129,5 +126,11 @@ window.onload = function () {
   // gsapTimeline.from(".baseline", { duration: 3, text: "" });
   // .to(".baseline", 0, { autoAlpha: 1 });
 
-  gsapTimeline.play();
+  introVideo.addEventListener("canplaythrough", function (t) {
+    gsapTimeline.add(function () {
+      introVideo.play();
+    }, 0.3);
+    gsapTimeline.play();
+  });
+  
 };
