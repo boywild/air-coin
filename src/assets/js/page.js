@@ -126,11 +126,12 @@ window.onload = function () {
   // gsapTimeline.from(".baseline", { duration: 3, text: "" });
   // .to(".baseline", 0, { autoAlpha: 1 });
 
-  introVideo.addEventListener("canplaythrough", function (t) {
-    gsapTimeline.add(function () {
-      introVideo.play();
-    }, 0.3);
-    gsapTimeline.play();
-  });
+  // introVideo.addEventListener("canplaythrough", function (t) {
+
+  // });
+  gsapTimeline.add(function () {
+    introVideo.play();
+  }, 0.3);
+  gsapTimeline.play();
   
 };
